@@ -2,7 +2,7 @@
 
 /**
 * main - prints comb of two digit
-* 
+*
 * Return: Always 0 (Success)
 */
 int main(void)
