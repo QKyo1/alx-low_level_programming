@@ -8,8 +8,8 @@
 */
 int main(void)
 {
-char alpha
-for (alpha="z"; alpha>= "z"; alpha--)
+char alpha;
+for (alpha = "z"; alpha >= "z"; alpha--)
 {
 putchar (alpha);
 }
