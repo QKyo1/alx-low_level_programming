@@ -1,4 +1,4 @@
-iinclude "main.h"
+#include "main.h"
 
 /**
 * print_times_table - prints the n times table, starting with 0
@@ -46,4 +46,4 @@ _putchar((k % 10) + '0');
 _putchar('\n');
 }
 }
-}
+i
