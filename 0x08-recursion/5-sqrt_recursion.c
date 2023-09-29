@@ -1,25 +1,33 @@
+
 #include "main.h"
 
+int actual_sqrt_recursion(int n, int i);
+
 /**
-* _sqrt_recursion - Main Entry
-* actual_sqrt_recursion - function
-* @x: input
-* @i: inpit
+* _sqrt_recursion - function 1
+* @x: input 1
 * Return: square root
 */
 
-int _sqrt_recursion(int x)
-int actual_sqrt_recursion(int x, int i)
+int _sqrt_recursion(int n)
 {
 if (x < 0)
 return (-1);
 return (actual_sqrt_recursion(x, 0));
-else if
-{
-if (i * i > x)
-return (-1);
-if (i * i == x)
-return (i);
-return (actual_sqrt_recursion(x, i + 1));
 }
-};
+
+/**
+* actual_sqrt_recursion - function 2
+* @y: input 2
+* @i: iterator
+* Return: square root
+*/
+
+int actual_sqrt_recursion(int y, int i)
+{
+if (i * i > y)
+return (-1);
+if (i * i == y)
+return (i);
+return (actual_sqrt_recursion(y, i + 1));
+}
