@@ -5,11 +5,11 @@
 * actual_sqrt_recursion - function
 * @x: input
 * @i: inpit
-* Return: the resulting square root
+* Return: square root
 */
 
-int _sqrt_recursion(int n)
-int actual_sqrt_recursion(int n, int i)
+int _sqrt_recursion(int x)
+int actual_sqrt_recursion(int x, int i)
 {
 if (x < 0)
 return (-1);
@@ -22,4 +22,4 @@ if (i * i == x)
 return (i);
 return (actual_sqrt_recursion(x, i + 1));
 }
-}
+};
