@@ -4,7 +4,7 @@ int actual_prime(int x, int y);
 
 /**
 * is_prime_number - function
-* @n: input
+* @x: input
 * Return: 1 if x is a prime number, 0 if not
 */
 
