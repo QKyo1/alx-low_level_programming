@@ -57,7 +57,7 @@ return (1);
 }
 s = _atoi(argv[1]);
 t = _atoi(argv[2]);
-r = s * t;
+r = s *t;
 printf("%d\n", r);
 return (0);
 }
