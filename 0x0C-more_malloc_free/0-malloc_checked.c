@@ -1,11 +1,10 @@
-#include <main.h>
-#include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
-/*
-* *malloc_checked - the task name
-* @b - size of the block
-* return - 98
+/**
+* *malloc_checked - allocates memory using malloc
+* @b: number of bytes to allocate
+* Return: a pointer to the allocated memory
 */
 
 void *malloc_checked(unsigned int b)
