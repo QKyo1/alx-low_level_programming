@@ -3,9 +3,9 @@
 
 /**
 * *_realloc - task name
-* @ptr: pointer 
+* @ptr: pointer
 * @old_size: sizold
-* @new_size: newsize 
+* @new_size: newsize
 * Return: poter
 */
 
