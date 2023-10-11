@@ -1,8 +1,10 @@
-iinclude<stdio.h>
+#include <stdio.h>
+
 /**
- * main - task name
- * return - 0
- */
+* main - prints the name of the file
+* Return: 0
+**/
+
 int main(void)
 {
 printf("%s\n", __FILE__);
