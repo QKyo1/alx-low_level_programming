@@ -11,11 +11,9 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int));
 {
-unsigned int i;
-if (array == NULL || action == NULL)
-return;
-for (i = 0; i < size; i++)
-{
-action(array[i]);
-}
+int x;
+if (array == NULL || size == 0 || action == NULL)
+exit(1);
+for  (x = 0; x < (int)size; x++)
+action(array[x]);
 }
