@@ -2,8 +2,8 @@
 
 /**
 * print_name - task name
-* @name - bla bla
-* @f - ok
+* @name : bla bla
+* @f : ok
 * return - 0
 */
 
