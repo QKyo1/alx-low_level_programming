@@ -10,11 +10,11 @@
 * Return - 0
 */
 
-void array_iterator(int *array, size_t size, void (*action)(int));
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 int x;
 if (array == NULL || size == 0 || action == NULL)
 exit(1);
-for  (x = 0; x < (int)size; x++)
+for (x = 0; x < (int)size; x++)
 action(array[x]);
 }
