@@ -20,5 +20,5 @@ if (x < n - 1 && separator != NULL)
 printf("%s", separator);
 }
 printf("\n");
-va_end(nums);
+va_end(numbers);
 }
