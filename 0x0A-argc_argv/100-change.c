@@ -23,7 +23,7 @@ return (0);
 }
 
 /**
-* main - calculates the amount of change
+* main - amount of change
 * @argc: numbers
 * @argv: arguments
 * Return: 0
