@@ -5,13 +5,13 @@
 /**
  * print_list - prints the lists
  * @X: pointer
- * Return: value 
+ * Return: value
  */
 
 size_t print_list(const list_t *X)
 {
 size_t s = 0;
- while (X)
+while (X)
 {
 if (!X->str)
 printf("[0] (nil)\n");

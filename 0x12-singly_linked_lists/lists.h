@@ -6,7 +6,7 @@
 * @str: stringng)
 * @len: lengthng
 * @next: n3xt node
-* Description: 
+* Description: h
 */
 
 typedef struct list_s
