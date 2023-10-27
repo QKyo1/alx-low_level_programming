@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - multi numbers
@@ -8,7 +9,7 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 int x, y;
 if (argc < 3)
