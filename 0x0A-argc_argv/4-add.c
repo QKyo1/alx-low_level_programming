@@ -5,7 +5,7 @@
  * main - add numbers
  * @argc: argument
  * @argv: array
- * Return: 0-1
+ * Return: 0 and 1
  */
 
 int main(int argc, char **argv)
