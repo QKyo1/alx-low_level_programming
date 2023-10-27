@@ -18,6 +18,6 @@ return (1);
 }
 x = _atoi(argv[1]);
 y = _atoi(argv[2]);
-printf("%d\n", result);
+printf("%d\n", x * y);
 return (0);
 }
