@@ -16,8 +16,8 @@ void *b;
 char *a;
 if (nmemb == 0 || size == 0)
 return (NULL);
-a = malloc(size * nmemb);
-if (a == NULL)
+b = malloc(size * nmemb);
+if (b == NULL)
 return (NULL);
 a = b;
 while (x < nmemb * size)
