@@ -22,7 +22,7 @@ if (n < len2)
 g = malloc(sizeof(char) * (len1 + n + 1));
 else
 g = malloc(sizeof(char) * (len1 + len2 + 1));
-if(!g)
+if (!g)
 return (NULL);
 while (x < len1)
 {
