@@ -23,6 +23,9 @@ free(ptr);
 return (NULL);
 }
 if (!ptr)
+return (malloc(new_size));
+a = malloc(new_size);
+if(!a)
 return (NULL);
 b = ptr;
 if (new_size < old_size)
