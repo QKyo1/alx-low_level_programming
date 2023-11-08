@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* main -entry point
+* main - entry point
 * @argc: arguments
 * @argv: array
 * Return: 0
