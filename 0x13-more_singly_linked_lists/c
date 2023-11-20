@@ -7,13 +7,17 @@ main
 ========== 0-print_listint.c ==========
 print_listint
 
-========== README.md ==========
+========== 1-listint_len.c ==========
+listint_len
 
-========== lists.h ==========
-lists.h:18: ERROR: code indent should use tabs where possible
-lists.h:18: WARNING: please, no spaces at the start of a line
-lists.h:19: ERROR: code indent should use tabs where possible
-lists.h:19: WARNING: please, no spaces at the start of a line
-lists.h:38: WARNING: adding a line without newline at end of file
-total: 2 errors, 3 warnings, 38 lines checked
-struct listint_s
+========== 1-main.c ==========
+main
+
+========== 2-add_nodeint.c ==========
+2-add_nodeint.c:13: WARNING: Multiple instructions on a single line is forbidden
+2-add_nodeint.c:13: ERROR: space required after that ';' (ctx:VxV)
+2-add_nodeint.c:20: WARNING: adding a line without newline at end of file
+total: 1 errors, 2 warnings, 20 lines checked
+add_nodeint
+
+========== 2-main.c ==========
