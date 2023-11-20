@@ -1,0 +1,19 @@
+
+========== 0-main.c ==========
+0-main.c:32: WARNING: adding a line without newline at end of file
+total: 0 errors, 1 warnings, 32 lines checked
+main
+
+========== 0-print_listint.c ==========
+print_listint
+
+========== README.md ==========
+
+========== lists.h ==========
+lists.h:18: ERROR: code indent should use tabs where possible
+lists.h:18: WARNING: please, no spaces at the start of a line
+lists.h:19: ERROR: code indent should use tabs where possible
+lists.h:19: WARNING: please, no spaces at the start of a line
+lists.h:38: WARNING: adding a line without newline at end of file
+total: 2 errors, 3 warnings, 38 lines checked
+struct listint_s
