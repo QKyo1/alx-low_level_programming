@@ -4,7 +4,7 @@
 * delete_nodeint_at_index - a function to delete a node
 * @head: point33r
 * @index: point3r for index
-* Return: 1 
+* Return: 1
 */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
