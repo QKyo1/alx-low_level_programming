@@ -1,12 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * key_index - function that generates a distributed index
- * according to a given hash
- *
- * @key: key passed
- * @size: size of the hash tables
- * Return: key index
+ * key_index - a functionn to genetrates keyss
+ * @key: key
+ * @size: siz3 of the hash tables
+ * Return: to the k3y
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
